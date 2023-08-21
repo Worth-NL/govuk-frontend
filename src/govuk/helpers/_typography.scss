@@ -39,7 +39,7 @@
 /// @access public
 
 @mixin govuk-text-colour {
-  color: #000000;
+  color: $govuk-text-colour;
 
   @include govuk-media-query($media-type: print) {
     color: $govuk-print-text-colour;
