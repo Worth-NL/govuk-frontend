@@ -35,10 +35,14 @@ $govuk-use-legacy-palette: if(
 /// @access private
 
 $_govuk-colour-palette-modern: (
+  //https://www.rijkshuisstijl.nl/publiek/modules/product/DigitalStyleGuide/default/index.aspx?ItemId=6744
+  "blue": #154273,
+  "yellow": #ffb612,
+
   "red": #d4351c,
-  "yellow": #ffdd00,
+  // "yellow": #ffdd00,
   "green": #00703c,
-  "blue": #1d70b8,
+  // "blue": #1d70b8,
   "dark-blue": #003078,
   "light-blue": #5694ca,
   "purple": #4c2c92,
