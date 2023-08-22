@@ -33,11 +33,7 @@ $govuk-use-legacy-font: if(
 /// @type List
 /// @access public
 
-$govuk-font-family: if(
-  $govuk-use-legacy-font,
-  $govuk-font-family-nta,
-  $govuk-font-family-gds-transport
-) !default;
+$govuk-font-family: sans-serif !default;
 
 /// Font families to use when displaying tabular numbers
 ///
